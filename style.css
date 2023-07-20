@@ -1,4 +1,61 @@
+section {
+    padding-top: 128px;
+}
+
+
+
 .navbar {
     background-color: white;
     box-shadow: 0 0 0 3px rgb(0, 0, 0, 0.25);
+}
+
+img {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+#profil {
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+.home h1 {
+    font-size: 48px;
+}
+
+.home h3 {
+    font-size: 24px;
+}
+
+.btn.button {
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.btn.button:hover {
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+}
+
+.home .arrow img {
+    width: 60px;
+}
+
+#arrow {
+    animation: 1s upDown infinite;
+}
+
+@keyframes upDown {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
