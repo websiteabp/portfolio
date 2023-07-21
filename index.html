@@ -12,44 +12,44 @@
 <body>
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand fs-4 fw-bold" href="#">Aditya Bagas</a>
+          <a class="navbar-brand fs-4 fw-bold" href="#">AB</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                    <a class="nav-link" href="#">Work</a>
+                    <a class="nav-link" href="#work">Work</a>
               </li>
               <li class="nav-item">
-                    <a class="nav-link disabled">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
         </div>
     </nav>
     <section id="home" class="home container">
-        <div class="row d-flex align-items-center">
-            <div class="col-8">
+        <div class="row d-flex align-items-center flex-md-row flex-column-reverse">
+            <div class="col-12 col-md-8">
                 <h3 class="fw-semibold">Hi! I am</h3>
-                <h1 class="fw-bold">Aditya Bagas</h1>
+                <h1 class="fw-bold">Aditya Bagas Pratama</h1>
                 <p>I am Web Development and Graphic Designer based in Indonesia</p>
                 <a class="btn button" href="" download>Resume</a>
             </div>
-            <div class="col-4" id="profil">
+            <div class="col-12 col-md-4 d-flex justify-content-md-end justify-content-center" id="profil">
                 <img src="images/profilweb.jpg" alt="profil">
             </div>
         </div>
-        <div class="arrow w-100 d-flex align-items-center flex-column mt-5">
-            <a class="text-decoration-none text-dark" href="#about">More Info</a>
+        <a href="#about" class="text-decoration-none arrow w-100 d-flex align-items-center flex-column mt-5">
+            <div class="text-dark">More Info</div>
             <img id="arrow" class="mt-2" src="images/arrow.svg" alt="arrow icon">
-        </div>  
+        </a>  
 
     </section>
     <section id="about" class="about container">
@@ -79,10 +79,10 @@
     </section>
     <section id="work" class="work container">
       <div class="row d-flex align-items-center gap-3">
-        <div class="col">
+        <div class="col-12 col-5">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure esse consequuntur dignissimos facilis quos? Accusamus, illum sunt? Corrupti ipsum natus consequatur magnam sequi ducimus aperiam necessitatibus explicabo, ipsa repellendus modi ex neque culpa assumenda iusto sed! Omnis, necessitatibus aliquam earum ipsa nesciunt, sapiente, ab natus eaque voluptas temporibus dolores explicabo.</p>
         </div>
-        <div class="col work-img">
+        <div class="col-12 col-6 work-img">
           <div  id="work-1" class="work-img-item">
             <img src="images/porto1.jpg" alt="img1">
           </div>
@@ -97,24 +97,24 @@
     </section>
     <section id="contact" class="contact container">
       <div class="row d-flex align-items-center gap-5">
-        <div class="col">
+        <div class="col-12 col-lg-6">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit molestias ipsa natus velit, voluptatibus magnam praesentium commodi vitae ex! Sed repellat facere odio excepturi, ullam culpa corrupti recusandae perferendis reiciendis laborum minima nobis, rem beatae ab tenetur vero error dolorem illo obcaecati nesciunt! Explicabo optio sapiente libero. Nostrum, nisi ullam.</p>
           <div class="row">
             <div class="col d-flex align-items-center">
               <i class="fa-brands fa-instagram fs-4"></i>
-              <p>@adty_bp</p>
+              <p class="mb-0 ms-2">@adty_bp</p>
             </div>
             <div class="col d-flex align-items-center">
               <i class="fa-brands fa-github fs-4"></i>
-              <p>websiteabp</p>
+              <p class="mb-0 ms-2">websiteabp</p>
             </div>
             <div class="col d-flex align-items-center">
               <i class="fa-brands fa-whatsapp fs-4"></i>
-              <p>08xxxxxxxxxxx</p>
+              <p class="mb-0 ms-2">08xxxxxxxxxxx</p>
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-12 col-lg-5">
           <form class="contact-form" onsubmit="onformsubmit(event)">
             <div class="mb-3">
               <label for="inp_email" class="form-label">Email address</label>

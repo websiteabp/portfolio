@@ -25,11 +25,6 @@ img {
     max-height: 400px;
 }
 
-#profil {
-    border: 3px solid black;
-    border-radius: 8px;
-}
-
 .home h1 {
     font-size: 48px;
 }
@@ -47,6 +42,10 @@ img {
     background-color: black;
     border-radius: 8px;
     color: white;
+}
+
+.home img {
+    width: 100%;
 }
 
 .home .arrow img {
@@ -150,6 +149,19 @@ img {
 .contact-form {
     border: 1px solid black;
     padding: 64px 32px;
+}
+
+@media only screen and (max-width: 756px) {
+    .home img {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    section::before {
+        left: -10px;
+        font-size: 64px;
+    }
 }
 
 @keyframes upDown {
