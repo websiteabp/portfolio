@@ -135,6 +135,23 @@ img {
     content: 'Web Project';
 }
 
+.contact::before {
+    content: 'Contact';
+}
+
+.contact {
+    padding-bottom: 128px;
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+.contact-form {
+    border: 1px solid black;
+    padding: 64px 32px;
+}
+
 @keyframes upDown {
     0% {
         transform: translateY(0);
